@@ -1,0 +1,431 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+h1 p {
+    margin: 0px;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.main-1 {
+    height: 5%;
+}
+
+.main-1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(71, 70, 70);
+    position: fixed;
+    width: 100%;
+
+}
+
+.main-1 li {
+    float: left;
+}
+
+.main-1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.main-1 a:hover {
+    background-color: #2e2c2c;
+}
+
+.home {
+    width: 100%;
+    height: 93%;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, rgb(22, 24, 29), aliceblue);
+    display: flex;
+}
+
+.home-1 {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-1 img {
+    width: 60%;
+    height: 80%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px rgb(59, 59, 59)
+}
+
+.home-2 {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: right;
+}
+
+.home-2 span {
+    height: 87%;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+    font-size: 80px;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.home-2 button{
+    width: 18%;
+    height: 6%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.home-2 button:hover{
+    background-color: #2e2c2c;
+}
+
+.about-main {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, aliceblue, white);
+    /* background-color: aliceblue; */
+}
+
+.about-main h1 {
+    margin: 0px;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+
+}
+
+.about hr {
+    border: solid black 1px;
+    height: 90%;
+
+}
+
+.about-1 {
+    width: 50%;
+    height: 100%;
+}
+
+.about-2 {
+    width: 50%;
+    height: 100%;
+}
+
+.inner-about-1 {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    margin: 50px 0px 0px 70px;
+}
+
+.inner-about-1 ul {
+    height: 80%;
+    margin-top: 0px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.inner-about-1 ul li {
+    margin: 10px;
+    font-size: 1.2vw;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+
+.inner-about-1 h1 {
+    margin-top: 15px;
+}
+
+.inner-about-2 {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    margin: 50px 0px 0px 90px;
+}
+
+.inner-about-2 img {
+    height: 100px;
+    width: 100px;
+}
+
+.inner-about-2 ul {
+    height: 50%;
+    width: 80%;
+    margin-left: 25px;
+}
+
+.inner-about-2 li {
+    text-align: start;
+    padding: 15px;
+    margin-left: 10px;
+    font-size: 1.2vw;
+}
+
+.skills {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, white, rgb(155, 154, 154));
+}
+.skills h1 {
+    margin-top: 0px;
+    text-align: center;
+}
+.inner-skills {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 60px;
+}
+.skills-1 {
+    width: 25%; 
+    height: 30%;
+}
+.skills-1 a {
+    text-decoration: none;
+}
+.skills-1 img {
+    width: 100%;
+    height: 100%;
+}
+.img-info {
+    height: 20%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-info:hover {
+    background-color: #2e2c2c;
+}
+.contact{
+    height: 95%;
+    width: 100%;
+    background-image: url('./assets/laughing-woman-talking-texting-phone-isolated-white-background.jpg');
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+.inner-contact{
+height: 60%;
+width: 35%;
+background-color: black;
+border-radius: 25px;
+box-shadow: 2px 2px 15px black;
+margin: 35px 100px 0px 0px;;
+}
+
+.login{
+    height: 65%;
+    width: 90%;
+    margin: 60px 0px 30px 17px;
+    background-color: black;
+}
+.user{
+    height: 30%;
+    margin: 7px 22px;
+    
+}
+.user input{
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+    border: none;
+}
+.input-1{
+    height: 10%;
+}
+.user label{
+    color: white;
+}
+.login button{
+    width: 92%;
+    height: 12%;
+    border-radius: 10px;
+    border: none;
+    background-color: #E84420;
+    margin-left: 20px;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-git {
+    background: #55ACEE;
+    color: white;
+  }
+
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .home-1 img {
+        margin-top: 50px;
+        width: 80%;
+        height: 80%;
+        min-width: 300px;
+        min-height: 300px;
+        border-radius: 50%;
+    }
+
+    .home-2 {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .home-2 span {
+        height: 30%;
+        width: 100%;
+        margin-bottom: 200px;
+        color: black;
+        font-size: 40px;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .about hr {
+        flex-direction: row;
+        width: 80%;
+        background-color: black;
+        height: 1px;
+    }
+
+    .about-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .inner-about-1 {
+        width: 80%;
+        height: 80%;
+        min-height: 60%;
+        min-width: 60%;
+        margin: 30px 0px 0px 45px;
+    }
+
+    .inner-about-1 ul li{
+        font-size: 10px;
+    }
+    .about-2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .inner-about-2 {
+        width: 80%;
+        height: 80%;
+        min-height: 60%;
+        min-width: 60%;
+        margin: 30px 0px 0px 45px;
+    }
+
+    .inner-about-2 li {
+        text-align: start;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .skills{
+        display: flex;
+        justify-content: center;
+    }
+    .inner-skills{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skills-1 img{
+        height: 0px;
+        width: 0px;
+    }
+    .img-info{
+        width: 120%;
+    }
+    .contact{
+        background-image: none;
+    }
+    .inner-contact{
+        height: 50%;
+        width: 100%;
+        margin: 100px 10px;
+    }
+    .home-2 button{
+        width: 30%;
+        height: 25%;
+        margin: 10px;
+    }
+}
